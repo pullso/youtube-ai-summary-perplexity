@@ -1,7 +1,7 @@
 <!-- HEADER -->
 <div align="center">
   <h1>🎥 YouTube AI Summary (Perplexity)</h1>
-  <p>A lightweight Tampermonkey script that adds a "Get Summary on Perplexity" button to any YouTube video page. Instantly get AI-powered summaries using Perplexity — no extra setup required.</p>
+  <p>A lightweight Tampermonkey script that adds a "Summarize video" button to any YouTube video page. Instantly get AI-powered summaries using Perplexity — no extra setup required.</p>
 
   <!-- BADGES -->
   <p>
