@@ -89,7 +89,3 @@ Check out my other open-source projects:
 ## 📝 License
 
 MIT © [pullso](https://github.com/pullso)
-
----
-
-Let me know if you want this README exported as a downloadable `.md` file or enhanced with badges, animated previews, or screenshots!
