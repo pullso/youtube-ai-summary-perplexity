@@ -57,18 +57,6 @@
 
 ---
 
-## 🚀 Future Ideas (Contributions Welcome!)
-
-Want to contribute? Here are some ideas:
-- [ ] Add inline iframe summary box instead of opening a new tab
-- [ ] Support multiple AI platforms (ChatGPT, Bard, Gemini, etc.)
-- [ ] Auto-submit query to Perplexity (no need to press Enter)
-- [ ] Save/download summaries locally or sync with Notion/Google Docs
-
-We welcome PRs and feedback! Fork the repo and open a pull request 😊
-
----
-
 ## 💬 Contact & Support
 
 Have questions, suggestions, or want to collaborate?
