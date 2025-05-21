@@ -1,91 +1,84 @@
-# 🎥 YouTube Video AI Summary (Perplexity)
+<!-- HEADER -->
+<div align="center">
+  <h1>🎥 YouTube AI Summary (Perplexity)</h1>
+  <p>A lightweight Tampermonkey script that adds a "Get Summary on Perplexity" button to any YouTube video page. Instantly get AI-powered summaries using Perplexity — no extra setup required.</p>
 
-A lightweight **Tampermonkey user script** that adds a convenient "Get Summary on Perplexity" button to any YouTube video page. It copies the current video URL to your clipboard and opens an AI-powered summary using [Perplexity](https://www.perplexity.ai/) in a new tab.
+  <!-- BADGES -->
+  <p>
+    <a href="https://www.perplexity.ai ">
+      <img src="https://img.shields.io/badge/Powered%20By-Perplexity-blue?logo=perplexity&style=flat-square " alt="Perplexity">
+    </a>
+    <a href="https://www.tampermonkey.net/ ">
+      <img src="https://img.shields.io/badge/UserScript-Tampermonkey-green?logo=tampermonkey&style=flat-square " alt="Tampermonkey">
+    </a>
+    <a href="https://opensource.org/licenses/MIT ">
+      <img src="https://img.shields.io/github/license/pullso/youtube-ai-summary-perplexity?color=orange&style=flat-square " alt="MIT License">
+    </a>
+  </p>
+
+  <!-- INSTALL BUTTON -->
+  <p>
+    <a href="https://raw.githubusercontent.com/pullso/youtube-ai-summary-perplexity/main/youtube-ai-summary-perplexity.user.js ">
+      <img src="https://img.shields.io/badge/-Install%20Script-green?style=for-the-badge&logo=tampermonkey " alt="Install Script">
+    </a>
+  </p>
+</div>
 
 ---
 
-## 🔧 Features
+## ✅ Features
 
-- ✅ Adds a stylish button under YouTube video info  
-- ✅ Automatically copies the current video URL  
-- ✅ Opens the video link in Perplexity for instant AI summary  
-- ✅ Simple and non-intrusive UI  
+- 🔧 Adds a stylish button under the YouTube video info  
+- 📋 Automatically copies the current video URL  
+- 🤖 Opens the video link in [Perplexity](https://www.perplexity.ai ) for instant AI summary  
+- 🌐 Works seamlessly without interfering with YouTube UI  
+- ⚙️ Fully non-intrusive and easy to use  
 
 ---
 
-## 🧪 How It Works
+## 🧰 How It Works
 
-1. You’re watching a YouTube video.
+1. You're watching a YouTube video.
 2. Click the **"Get Summary on Perplexity"** button injected into the page.
 3. The video URL is copied to your clipboard.
-4. A new tab opens with the video URL sent to Perplexity AI.
-5. Get a concise summary of the video!
+4. A new tab opens with the video link sent to Perplexity AI.
+5. Get a concise summary of the video content!
 
 ---
 
-## ⚙️ Installation
+## 🛠️ Installation
 
-### Step-by-step:
+1. Install [Tampermonkey](https://www.tampermonkey.net/ ) or another userscript manager.
+2. Go to this repo → click **"Raw"** on GitHub or download the `.user.js` file.
+3. In Tampermonkey → Dashboard → Install → Load the script.
+4. Navigate to any YouTube video and enjoy summarizing!
 
-1. Install [Tampermonkey](https://www.tampermonkey.net/) or another userscript manager.
-2. Click on the **"Raw"** button from this GitHub repo or download the `.user.js` file.
-3. Open Tampermonkey → Dashboard → Install → Load the script.
-4. Go to any YouTube video and enjoy summarizing!
-
----
-
-## 📄 UserScript Metadata
-
-```js
-// ==UserScript==
-// @name         YouTube Video AI Summary (Perplexity)
-// @namespace    http://tampermonkey.net/
-// @version      1.1
-// @description  Adds a button to YouTube video pages to copy the URL and open a Perplexity AI summary in a new tab.
-// @author       https://github.com/pullso
-// @match        https://www.youtube.com/watch?v=*
-// @grant        GM_setClipboard
-// ==/UserScript==
-```
+🔗 [👉 Install Script Directly (via Raw)](https://raw.githubusercontent.com/pullso/youtube-ai-summary-perplexity/main/youtube-ai-summary-perplexity.user.js )
 
 ---
 
-## 🛠️ Development
+## 🚀 Future Ideas (Contributions Welcome!)
 
-Contributions are welcome! If you'd like to improve the UX, add more features (like auto-submitting the query to Perplexity), or fix bugs, feel free to open an issue or submit a pull request.
+Want to contribute? Here are some ideas:
+- [ ] Add inline iframe summary box instead of opening a new tab
+- [ ] Support multiple AI platforms (ChatGPT, Bard, Gemini, etc.)
+- [ ] Auto-submit query to Perplexity (no need to press Enter)
+- [ ] Save/download summaries locally or sync with Notion/Google Docs
 
-### Tech Stack:
-- JavaScript (Vanilla + Tampermonkey API)
-- Puppeteer-like approach via Perplexity AI (not required locally)
-
----
-
-## 📬 Contact
-
-Want to collaborate or have suggestions?  
-📬 Reach out on Telegram: [@pullso](https://t.me/pullso)  
-💼 LinkedIn: [Pavel Dubitskii](https://www.linkedin.com/in/pavel-dubitskii/)
+We welcome PRs and feedback! Fork the repo and open a pull request 😊
 
 ---
 
-## 📚 More Projects by @pullso
+## 💬 Contact & Support
 
-Check out my other open-source projects:
-- [LinkedIn Bot](https://github.com/pullso/linkedin-bot)
-- [Telegram Spotify Now Playing Bot](https://github.com/pullso/nowplaying-telegram-spotify-bot)
-- [Medium Clone with NestJS](https://github.com/pullso/medium-clone-nestjs)
-- [Simple Excel Clone in JS](https://github.com/pullso/excel-google-sheet-js)
+Have questions, suggestions, or want to collaborate?
 
----
-
-## 💡 Future Ideas
-
-- Add an inline iframe summary box instead of opening a new tab
-- Support for multiple AI platforms (ChatGPT, Bard, etc.)
-- Save summaries locally or sync with Notion/Google Docs
+- 📮 Telegram: [@pullso](https://t.me/pullso )
+- 💼 LinkedIn: [Pavel Dubitskii](https://www.linkedin.com/in/paveldubitskii/ )
+- 🧾 GitHub: [More projects by @pullso](https://github.com/pullso )
 
 ---
 
-## 📝 License
+## 📄 License
 
-MIT © [pullso](https://github.com/pullso)
+MIT © [pullso](https://github.com/pullso )
