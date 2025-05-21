@@ -6,6 +6,7 @@
 // @author       https://github.com/pullso 
 // @match        https://www.youtube.com/watch?v=*
 // @grant        GM_setClipboard
+// @license      MIT
 // ==/UserScript==
 
 (function() {
