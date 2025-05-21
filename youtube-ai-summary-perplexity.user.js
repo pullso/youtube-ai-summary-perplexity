@@ -3,10 +3,12 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Adds a button to YouTube video pages to copy the URL and open a Perplexity AI summary in a new tab.
-// @author       https://github.com/pullso 
+// @author       pullso 
+// @namespace    https://github.com/pullso/youtube-ai-summary-perplexity/
+// @supportURL   https://github.com/pullso/youtube-ai-summary-perplexity/ssues
+// @license      MIT
 // @match        https://www.youtube.com/watch?v=*
 // @grant        GM_setClipboard
-// @license      MIT
 // ==/UserScript==
 
 (function() {
